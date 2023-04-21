@@ -2,7 +2,6 @@
   width: 600px;
   height: 300px;
 }
-:root {
-  --swiper-navigation-size: 0px;
+body {
+  background-color: rgb(26, 27, 32);
 }
-

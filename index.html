@@ -20,19 +20,18 @@
             <div class="swiper-slide"><img src="./swiper/mobile-4.jpg" alt="watch4"></div>
             <div class="swiper-slide"><img src="./swiper/mobile-5.jpg" alt="watch5"></div>
         </div>
+        </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
     
         <!-- If we need navigation buttons -->
-        <div class="button-prev"><img src="./left.svg" alt=""></div>
-        <div class="button-next"><svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="none">
-            <rect width="41" height="41" x=".5" y=".5" stroke="#fff" stroke-opacity=".5" rx="8.5" />
-            <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".5" d="m24 27-6-6 6-6" />
+        <div class="button-prev"><svg width="32" height="32">
+            <use href="./sprite.svg#right-btn"></use>
+        </svg></div>
+        <div class="button-next"><svg width="32" height="32">
+            <use href="./sprite.svg#left-btn"></use>
         </svg></div>
     
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
    <script>const swiper = new Swiper('.swiper', {
         // Optional parameters
